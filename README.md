@@ -45,6 +45,7 @@ The original files from Kaggle's NYSE S\&P 500 dataset included numerous raw and
 * `GICS Sector` and `GICS Sub-Industry`: No changes made
 
 ---
+![Workforce](https://github.com/user-attachments/assets/a189638d-7c5c-4825-a955-f821c6f4bac5)
 
 ## 🧠 Skills Demonstrated
 
