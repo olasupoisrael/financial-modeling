@@ -2,7 +2,8 @@
 
 ## 💼 Project Overview
 
-This is a personal data analysis project where I explored real-world financial data from the New York Stock Exchange (NYSE), specifically focusing on companies listed in the S\&P 500 index. The dataset was originally sourced from [Kaggle](https://www.kaggle.com/datasets/dgawlik/nyse), and I worked with a cleaned subset that includes key financial and sector data across hundreds of publicly traded companies.
+This is a personal data analysis project where I explored real-world financial data from the New York Stock Exchange (NYSE), specifically focusing on companies listed in the S\&P 500 index. The dataset was originally sourced from Kaggle:
+🔗 [Kaggle - New York Stock Exchange Dataset](https://www.kaggle.com/datasets/dgawlik/nyse)
 
 ## 🔍 Objective
 
@@ -16,57 +17,72 @@ The main goal of this project is to:
 
 This project allowed me to blend my skills in data analytics, financial modeling, and Excel/Google Sheets automation.
 
+---
+
+## 🧹 Cleaning Up the Data
+
+The original files from Kaggle's NYSE S\&P 500 dataset included numerous raw and unstructured elements. To streamline the analysis:
+
+* A **curated, clean version** of the dataset was provided specifically for this project.
+* No extensive data cleaning was required, but I reviewed and noted best practices for future reference.
+
+### 🔧 Suggested Cleaning Steps (for raw data users):
+
+* Remove the **first column** with no header (just a row count).
+* Check and remove any **special characters** in cell values.
+* **Rename column headers** by removing spaces and special characters (e.g., commas), which improves compatibility for formulas and scripting.
+
+### 🗃️ Final Dataset Includes:
+
+* `Ticker Symbol`: Company’s trading symbol
+* `Years`: Year label for each reporting period
+* `Period Ending`: Fiscal year-end date
+* `Total Revenue`: Annual revenue in USD
+* `Cost of Goods Sold (COGS)`: Annual COGS in USD
+* `Sales, General & Administrative (SGA)`: Annual SG\&A expenses in USD
+* `Research and Development`: Annual R\&D expenses
+* `Other Operating Items`: Miscellaneous operating expenses
+* `GICS Sector` and `GICS Sub-Industry`: No changes made
+
+---
+
 ## 🧠 Skills Demonstrated
 
 * ✅ Descriptive statistics (mean, median, standard deviation, variance, range)
-* ✅ Excel functions: `IF`, `INDEX`, `MATCH`, `OFFSET`, `VLOOKUP`, `XLOOKUP`, conditional formatting, dropdowns, data validation
-* ✅ Data visualization using charts, slicers, and dynamic filters
-* ✅ Business metrics analysis and financial forecasting
-* ✅ Presentation and storytelling with data (PowerPoint/PDF format)
+* ✅ Excel functions: `IF`, `INDEX`, `MATCH`, `OFFSET`, `VLOOKUP`, `XLOOKUP`, etc.
+* ✅ Data visualization: Charts, slicers, interactive dashboards
+* ✅ Financial forecasting and scenario modeling
+* ✅ Report presentation using PowerPoint
 
-## 🗃️ Dataset
-
-The project utilizes a combination of:
-
-* `Fundamentals.csv` — Core financial metrics from SEC 10K filings
-* `Securities.csv` — Company metadata including sector and sub-industry
-
-These files were pre-cleaned and structured to allow for efficient analysis.
-
-## 🧩 Project Structure
+## 📂 Project Structure
 
 ```
 📁 NYSE-SP500-Financial-Analysis
-├── 📊 Final_Analysis.xlsx        # Main spreadsheet with analysis, dashboards, and forecasts
-├── 📈 Profit_Loss_Dashboard.png  # Snapshot of the P&L dashboard
-├── 📉 Forecast_Model.png         # Snapshot of the forecast model
-├── 📂 /images                    # Visuals used in the presentation
-├── 🖼️ Presentation.pdf           # Summary presentation of insights
-└── 📄 README.md                  # Project overview
+├── 📊 projectdata-nysew.xlsx       # Full analysis with formulas & dashboards
+├── 📈 Profit_Loss_Dashboard.png  # Dashboard visual snapshot
+├── 📉 Forecast_Model.png         # Forecasting visual
+├── 🖼️ nyse-data.pptx          # Key insights summarized
+└── 📄 README.md                  # Project documentation
 ```
 
-## 🧪 Key Deliverables
-
-### Part 1: Quiz Exploration (Not Submitted)
-
-* Answered 8 preliminary quiz questions to better understand the dataset and metrics
-
-### Part 2: Main Analysis (Submitted)
-
-* Performed detailed financial analysis and summarized trends
-* Built an interactive Profit & Loss dashboard
-* Forecasted future revenue under 3 scenarios (Best Case, Likely Case, Worst Case)
-* Shared insights in a well-designed presentation
+---
 
 ## 📌 Why This Project Matters
 
-This project showcases my ability to translate raw financial data into actionable insights. It's also a demonstration of how I can leverage spreadsheet tools to drive data-informed decision-making in a business context — a critical skill in both analytics and finance roles.
+This project showcases my ability to:
+
+* Work with structured business datasets
+* Perform financial modeling and insight extraction
+* Communicate insights visually and clearly
+* Build tools that help business stakeholders make informed decisions
+
+It bridges both **technical spreadsheet expertise** and **business acumen**—two essential skills in analytics and finance roles.
+
+---
 
 ## 🚀 Tools Used
 
-* Microsoft Excel / Google Sheets
+* Microsoft Excel
 * PowerPoint
-* Canva (for presentation visuals)
-* GitHub (version control and project showcase)
-
+* GitHub (for version control and documentation)
 
