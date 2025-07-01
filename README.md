@@ -1,4 +1,4 @@
-# 📊 NYSE S\&P 500 Financial Analysis — Personal Excel/Sheets Project
+# 📊 NYSE S\&P 500 Financial Analysis — Personal Excel Project
 
 ## 💼 Project Overview
 
