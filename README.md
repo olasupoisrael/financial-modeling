@@ -15,7 +15,7 @@ The main goal of this project is to:
 * Develop a **financial forecast model** using scenario planning
 * Communicate findings visually through a presentation
 
-This project allowed me to blend my skills in data analytics, financial modeling, and Excel/Google Sheets automation.
+This project allowed me to blend my skills in data analytics, financial modeling, and Excel automation.
 
 ---
 
